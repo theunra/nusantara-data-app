@@ -6,12 +6,19 @@ interface FetchLoginDTO {
 }
 
 export const fetchLogin = async (fetchLoginDto : FetchLoginDTO) => {
-  const response = await fetch(`${API_URL}`, {
-    method: "POST",
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(fetchLoginDto),
-  });
-  return response.json();
+  try{
+    const response = await fetch(`${API_URL}`, {
+      method: "POST",
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(fetchLoginDto),
+    });
+    return response.json();
+  }
+  catch (err) {
+    console.error(`Fetch Gagal : ${err}`);
+    return {code : -1};
+  }
+
 };
