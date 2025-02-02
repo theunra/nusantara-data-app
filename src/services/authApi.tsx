@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:5000/login";
+const env = import.meta.env;
+const API_URL = `${env.VITE_API_END_ADDR}/login`;
 
 interface FetchLoginDTO {
     email : string;

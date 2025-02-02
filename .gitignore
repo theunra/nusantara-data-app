@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Tetap diupload untuk memudahkan reviewer
+# *.env
