@@ -13,10 +13,10 @@ Aplikasi ini dibuat sebagai penugasan dari tahap rekrutmen posisi Frontend Devel
 5. Selanjutnya pengguna akan diarahkan ke homepage
 ## Teknologi Yang Digunakan
 1. React JS
-    Aplikasi dibuat dengan framework React JS dengan Typescript untuk meningkatkan readability dari kode dengan menambahkan type-safe. React JS dipilih karena fleksibel dan cepat dalam membuat SPA.
+    - Aplikasi dibuat dengan framework React JS dengan Typescript untuk meningkatkan readability dari kode dengan menambahkan type-safe. React JS dipilih karena fleksibel dan cepat dalam membuat SPA.
 2. Chart JS
-    Untuk menampilkan grafik vertical bar dan pie chart digunakan Chart JS. Library ini sudah disupport secara langsung oleh react dengan adanya react-chartjs library.
+    - Untuk menampilkan grafik vertical bar dan pie chart digunakan Chart JS. Library ini sudah disupport secara langsung oleh react dengan adanya react-chartjs library.
 3. Python Flask
-    Sebuah backend service tambahan digunakan untuk mengatasi permasalahan CORS dari API endpoint yang disediakan. Pada API endpoint tersebut, digunakan konfigurasi yang tidak memperbolehkan CORS oleh karena itu dibuat service Flask untuk meneruskan request login dari aplikasi menuju ke API endpoint
+    - Sebuah backend service tambahan digunakan untuk mengatasi permasalahan CORS dari API endpoint yang disediakan. Pada API endpoint tersebut, digunakan konfigurasi yang tidak memperbolehkan CORS oleh karena itu dibuat service Flask untuk meneruskan request login dari aplikasi menuju ke API endpoint
 
 
